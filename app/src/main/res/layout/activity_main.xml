@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="10dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSnackbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_design1"
+        android:text="Two-line snackbar with action"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSnackbar2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/btn_design1"
+        android:text="Two-line SB, with action and close affordance"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSnackbar3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_design2"
+        android:text="Two-line snackbar without action"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSnackbar4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/btn_design2"
+        android:text="Two-line snackbar with close affordance"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSnackbar5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_design3"
+        android:text="Single-line snackbar with action"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSnackbar6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/btn_design3"
+        android:textAllCaps="false"
+        android:text="Single-line snackbar with action"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSnackbar7"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_design4"
+        android:text="Single-line snackbar"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSnackbar8"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_design4"
+        android:text="Single-line snackbar with close affordance"/>
+
+</LinearLayout>
